@@ -1,39 +1,70 @@
-<style-scheme name="Material Theme" id="material-theme" version="1.0">
-  <author>Maksudur Rahman Maateen</author>
-  <description>A fork of Gedit Material Theme by Marco Bonomo which was a clone for of Sublime Text Material theme by Mattia Astorino.</description>
+<?xml version="1.0" encoding="UTF-8"?>
 
-  <style name="text"	foreground="#CDD3DE" background="#263238" />
-  <style name="cursor"	foreground="#CDD3DE" />
-  <style name="current-line"	background="#263238" />
-  <style name="line-numbers"	foreground="#CDD3DE" background="#263238" />
-  <style name="def:comment"	foreground="#546E7A" italic="true" />
-  <style name="def:shebang"	foreground="#546E7A" italic="true" />
-  <style name="def:doc-comment-element"	foreground="#546E7A" bold="true" />
-  <style name="def:constant"	foreground="#ffeb95" />
-  <style name="def:string"	foreground="#c3e88d" />
-  <style name="def:special-char"	foreground="#CDD3DE" />
-  <style name="def:special-constant"	foreground="#CDD3DE" bold="true" />
-  <style name="def:boolean"	foreground="#ffeb95" />
-  <style name="def:number"	foreground="#A5C261" />
-  <style name="def:floating-point"	foreground="#A5C261" />
-  <style name="def:keyword"	foreground="#C594C5" bold="true" />
-  <style name="def:builtin"	foreground="#6699CC" bold="true" />
-  <style name="def:variable"	foreground="#F2777A" />
-  <style name="def:identifier"	foreground="#F2777A" />
-  <style name="def:statement"	foreground="#EB606B" />
-  <style name="def:type"	foreground="#EB606B" />
-  <style name="def:error"	foreground="#80CBC41A" bold="true" />
-  <style name="def:note"	foreground="#80CBC41A" bold="true" />
-  <style name="def:net-address-in-comment"	foreground="#F2777A" underline="true" />
-  <style name="def:preprocessor"	foreground="#80CBC41A" />
-  <style name="def:specials"	background="#BB80B3" />
-  <style name="c:preprocessor"	/>
-  <style name="diff:ignore"	foreground="#80CBC41A" />
-  <style name="ruby:module-handler"	foreground="#BB80B3" />
-  <style name="ruby:symbol"	foreground="#ffeb95" />
-  <style name="ruby:regex"	foreground="#A5C261" />
-  <style name="sh:others"	/>
-  <style name="xml:attribute-name"	foreground="#C594C5" />
-  <style name="xml:element-name"	foreground="#EB606B" />
-  <style name="selection"	/>
+<style-scheme name="Material Theme" id="material-theme" version="1.0">
+    <author>Maksudur Rahman Maateen</author>
+    <description>A fork of Gedit Material Theme by Marco Bonomo which was a clone for of Sublime Text Material theme by Mattia Astorino.</description>
+
+    <!-- Global Settings -->
+    <style name="text" foreground="#CDD3DE" background="#263238" />
+    <style name="selection" foreground="#002B36" background="#657B83"/>
+    <style name="cursor" foreground="#CDD3DE" />
+    <style name="current-line" background="#263238" />
+    <style name="line-numbers" foreground="#CDD3DE" background="#263238" />
+    <style name="background-pattern" background="#032F3B"/>
+
+    <!-- Bracket Matching -->
+    <style name="bracket-match" foreground="#002B36" background="#586E75"/>
+    <style name="bracket-mismatch" foreground="#DC322F" background="#586E75"/>
+
+    <!-- Right Margin -->
+    <style name="right-margin" foreground="#EEE8D5" background="#93A1A1"/>
+
+    <!-- Search Matching -->
+    <style name="search-match" foreground="#002B36" background="#B58900"/>
+
+    <!-- Comments -->
+    <style name="def:comment" foreground="#546E7A" italic="true" />
+    <style name="def:shebang" foreground="#546E7A" italic="true" />
+    <style name="def:doc-comment-element" foreground="#546E7A" bold="true" />
+
+    <!-- Constants -->
+    <style name="def:constant" foreground="#ffeb95" />
+    <style name="def:special-char" foreground="#CDD3DE" />
+
+    <!-- Identifiers -->
+    <style name="def:identifier"  foreground="#F2777A" />
+
+    <!-- Statements -->
+    <style name="def:statement"   foreground="#EB606B" />
+
+    <!-- Types -->
+    <style name="def:type" foreground="#EB606B" />
+
+    <!-- Operators -->
+    <style name="def:operator" foreground="#859900"/>
+
+    <!-- Others -->
+    <style name="def:preprocessor" foreground="#80CBC41A" />
+    <style name="c:preprocessor"  />
+    <style name="def:error" foreground="#80CBC41A" bold="true" />
+    <style name="def:note" foreground="#80CBC41A" bold="true" />
+    <style name="def:underlined" italic="true" underline="single"/>
+
+    <style name="def:string"  foreground="#c3e88d" />
+    <style name="def:special-constant" foreground="#CDD3DE" bold="true" />
+    <style name="def:boolean" foreground="#ffeb95" />
+    <style name="def:number"  foreground="#A5C261" />
+    <style name="def:floating-point"  foreground="#A5C261" />
+    <style name="def:keyword" foreground="#C594C5" bold="true" />
+    <style name="def:builtin" foreground="#6699CC" bold="true" />
+    <style name="def:variable"    foreground="#F2777A" />
+    <style name="def:net-address-in-comment"  foreground="#F2777A" underline="true" />
+    <style name="def:specials"    background="#BB80B3" />
+    <style name="diff:ignore" foreground="#80CBC41A" />
+    <style name="ruby:module-handler" foreground="#BB80B3" />
+    <style name="ruby:symbol" foreground="#ffeb95" />
+    <style name="ruby:regex"  foreground="#A5C261" />
+    <style name="sh:others"   />
+    <style name="xml:attribute-name"  foreground="#C594C5" />
+    <style name="xml:element-name"    foreground="#EB606B" />
 </style-scheme>
