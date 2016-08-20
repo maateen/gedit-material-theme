@@ -1,6 +1,6 @@
-<style-scheme name="Material" id="material" version="1.0">
-  <author>Marco Bonomo</author>
-  <description>A clone for Gedit of the Material Sublime Text theme by Mattia Astorino</description>
+<style-scheme name="Material Theme" id="material-theme" version="1.0">
+  <author>Maksudur Rahman Maateen</author>
+  <description>A fork of Gedit Material Theme by Marco Bonomo which was a clone for of Sublime Text Material theme by Mattia Astorino.</description>
 
   <style name="text"	foreground="#CDD3DE" background="#263238" />
   <style name="cursor"	foreground="#CDD3DE" />
