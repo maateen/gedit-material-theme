@@ -2,21 +2,22 @@
 A fork of [Gedit Material Theme](https://github.com/radel/gedit-material-theme) by [Marco Bonomo](https://github.com/radel) which was a clone of Sublime Text Material theme by [Mattia Astorino](http://equinsuocha.io/).
 
 ## Installation
-- At first, play this command on your terminal:
+At first, play this command on your terminal:
 ```
 wget https://raw.githubusercontent.com/maateen/gedit-material-theme/master/material-theme.xml -O ~/.local/share/gedit/styles/material-theme.xml
 ```
-- Now open **Gedit Text Editor** and go to **Edit > Preferences > Font & Colors**. Check the **Color Scheme** list and select **Material Theme**. That's all!
+Now open **Gedit Text Editor** and go to **Edit > Preferences > Font & Colors**. Check the **Color Scheme** list and select **Material Theme**. That's all!
 
 ## Recommendation
-- Let's install **Gedit Plugins** by running this command on terminal:
+Let's install **Gedit Plugins** by running this command on terminal:
 ```
 sudo apt-get install gedit-plugins
 ```
 ```
 sudo pip install pyflakes
 ```
-- Now open **Gedit Text Editor** and go to **Edit > Preferences > Plugins**. I recommend to enable these plugins, specially if you are a **Python** programmer:
+Now open **Gedit Text Editor** and go to **Edit > Preferences > Plugins**. I recommend to enable these plugins, specially if you are a **Python** programmer:
+
 1. Better Python Console
 2. Bracket Completion
 3. Check Python
