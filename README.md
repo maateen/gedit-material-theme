@@ -4,6 +4,9 @@ A fork of [Gedit Material Theme](https://github.com/radel/gedit-material-theme) 
 ## Installation
 At first, play this command on your terminal:
 ```
+mkdir -p ~/.local/share/gedit/styles
+```
+```
 wget https://raw.githubusercontent.com/maateen/gedit-material-theme/master/material-theme.xml -O ~/.local/share/gedit/styles/material-theme.xml
 ```
 Now open **Gedit Text Editor** and go to **Edit > Preferences > Font & Colors**. Check the **Color Scheme** list and select **Material Theme**. That's all!
@@ -48,7 +51,10 @@ Now open **Gedit Text Editor** and go to **Edit > Preferences > Plugins**. I rec
 28. Word Completion
 
 ## Update
-By this time, there is no way of auto-update. But you can always update the color scheme manually. Please check the [repository](https://github.com/maateen/gedit-material-theme) frequently (weekly/monthly). If you find any new commit has made, then close your **Gedit Text Editor** and just run the installation command on terminal.
+By this time, there is no way of auto-update. But you can always update the color scheme manually. Please check the [repository](https://github.com/maateen/gedit-material-theme) frequently (weekly/monthly). If you find any new commit has made, then close your **Gedit Text Editor** and just run the installation command on terminal:
+```
+wget https://raw.githubusercontent.com/maateen/gedit-material-theme/master/material-theme.xml -O ~/.local/share/gedit/styles/material-theme.xml
+```
 
 ## Screenshots
 ### CSS
