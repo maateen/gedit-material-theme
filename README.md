@@ -58,8 +58,8 @@ wget https://raw.githubusercontent.com/maateen/gedit-material-theme/master/mater
 
 ## Screenshots
 ### CSS
-![CSS  in action with Gedit Material Theme](https://s20.postimg.org/xdahqt7cd/Screenshot+from%202016-08-21%2003-55-00.png)
+![CSS  in action with Gedit Material Theme](https://raw.githubusercontent.com/maateen/gedit-material-theme/gh-pages/Screenshot_from_2016_08_21_03_55_00.png)
 ### JavaScript
-![JavaScript  in action with Gedit Material Theme](https://s20.postimg.org/uhxejy3cd/Screenshot+from%202016-08-21%2003-55-44.png)
+![JavaScript  in action with Gedit Material Theme](https://raw.githubusercontent.com/maateen/gedit-material-theme/gh-pages/Screenshot_from_2016_08_21_03_55_44.png)
 ### Python
-![Python in action with Gedit Material Theme](https://s20.postimg.org/wxumk1w19/Screenshot_from_2016_08_21_03_06_45.png)
+![Python in action with Gedit Material Theme](https://raw.githubusercontent.com/maateen/gedit-material-theme/gh-pages/Screenshot_from_2016_08_21_03_06_45.png)
